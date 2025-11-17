@@ -38,8 +38,8 @@ all-cloud:
 	done
 	python evaluator/json_to_md.py "$$(ls -1t ./output/*.json | head -n1)"
 
-download-models:
-	mkdir -p models
-	wget -P models "https://huggingface.co/bartowski/google_gemma-3-27b-it-GGUF/resolve/main/google_gemma-3-27b-it-Q8_0.gguf"
+# download-models:
+# 	mkdir -p models
+#	wget -P models "https://huggingface.co/bartowski/google_gemma-3-27b-it-GGUF/resolve/main/google_gemma-3-27b-it-Q8_0.gguf"
 	
 
