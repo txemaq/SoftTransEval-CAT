@@ -43,7 +43,7 @@ def get_args():
     parser.add_argument("--prompt_version", type=str, default="1")
     parser.add_argument(
         "--model_path",
-        default="models/google_gemma-3-27b-it-Q8_0.gguf",
+        default="models/google_gemma-3-27b-it-Q4_0.gguf",
         type=str,
         help="Path to Gemma 3 model file (.gguf)",
     )
